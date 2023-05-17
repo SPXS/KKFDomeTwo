@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22A0B562D8A9471B92D16C8D /* KKFDomeTwo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKFDomeTwo.podspec; path = ../KKFDomeTwo.podspec; sourceTree = "<group>"; };
-		3652852C86C674100772F066 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		22A0B562D8A9471B92D16C8D /* KKFDomeTwo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKFDomeTwo.podspec; path = ../KKFDomeTwo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3652852C86C674100772F066 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A96A8740F1FA3EA3212011E /* Pods_KKFDomeTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKFDomeTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CCE1400402AB9FE6DF9862 /* Pods-KKFDomeTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKFDomeTwo_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKFDomeTwo_Tests/Pods-KKFDomeTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KKFDomeTwo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKFDomeTwo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A75F8B116C69B947D3152EDB /* Pods-KKFDomeTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKFDomeTwo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KKFDomeTwo_Tests/Pods-KKFDomeTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C363B1DE21D98DCD935AFDCD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C363B1DE21D98DCD935AFDCD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC1B8BBB426B3F4B052D0925 /* Pods-KKFDomeTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKFDomeTwo_Example.release.xcconfig"; path = "Target Support Files/Pods-KKFDomeTwo_Example/Pods-KKFDomeTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EE054CAB50E9E9B9ABDE2E37 /* Pods-KKFDomeTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKFDomeTwo_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKFDomeTwo_Example/Pods-KKFDomeTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F088B96E34A305B809EB4270 /* Pods_KKFDomeTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKFDomeTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				A75F8B116C69B947D3152EDB /* Pods-KKFDomeTwo_Tests.debug.xcconfig */,
 				50CCE1400402AB9FE6DF9862 /* Pods-KKFDomeTwo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

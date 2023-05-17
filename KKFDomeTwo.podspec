@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KKFDomeTwo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KKFDomeTwo.'
+  s.summary          = '这个是一个测试s.summary'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  这个地方也是一个描述，要比summary这个地方的描述多一些
                        DESC
 
-  s.homepage         = 'https://github.com/571322024@qq.com/KKFDomeTwo'
+  s.homepage         = 'https://github.com/SPXS/KKFDomeTwo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '571322024@qq.com' => '@ZKF@18236707897' }
-  s.source           = { :git => 'https://github.com/571322024@qq.com/KKFDomeTwo.git', :tag => s.version.to_s }
+  s.author           = { '571322024@qq.com' => '这是密码呀' }
+  s.source           = { :git => 'https://github.com/SPXS/KKFDomeTwo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'KKFDomeTwo/Classes/**/*'
   
