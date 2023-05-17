@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/SPXS/KKFDomeTwo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '571322024@qq.com' => '这是密码呀' }
+  s.author           = { '571322024@qq.com' => '@ZKF@18236707897' }
   s.source           = { :git => 'https://github.com/SPXS/KKFDomeTwo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
